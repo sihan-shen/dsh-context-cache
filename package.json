@@ -1,0 +1,48 @@
+{
+  "name": "@ds-plugins/dsh-context-cache",
+  "version": "0.2.0",
+  "description": "Bounded persistent context cache used by DSH context plugins",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sihan-shen/dsh-context-cache.git"
+  },
+  "homepage": "https://github.com/sihan-shen/dsh-context-cache#readme",
+  "packageManager": "pnpm@11.7.0",
+  "engines": {
+    "node": "^22.19.0 || >=24"
+  },
+  "type": "module",
+  "main": "./lib/src/index.js",
+  "types": "./lib/src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/src/index.d.ts",
+      "default": "./lib/src/index.js"
+    }
+  },
+  "files": [
+    "lib/src/**/*.js",
+    "lib/src/**/*.d.ts",
+    "lib/src/**/*.d.ts.map",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc -b",
+    "prepack": "pnpm run build",
+    "test": "vitest run"
+  },
+  "peerDependencies": {
+    "@ds-plugins/dsh-context": "^0.2.0"
+  },
+  "peerDependenciesMeta": {
+    "@ds-plugins/dsh-context": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@ds-plugins/dsh-context": "^0.2.0",
+    "@types/node": "26.3.0",
+    "typescript": "5.9.3",
+    "vitest": "4.0.18"
+  }
+}
