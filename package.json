@@ -7,6 +7,9 @@
     "url": "https://github.com/sihan-shen/dsh-context-cache.git"
   },
   "homepage": "https://github.com/sihan-shen/dsh-context-cache#readme",
+  "publishConfig": {
+    "access": "public"
+  },
   "packageManager": "pnpm@11.7.0",
   "engines": {
     "node": "^22.19.0 || >=24"
