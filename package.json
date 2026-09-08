@@ -4,7 +4,7 @@
   "description": "Bounded persistent context cache used by DSH context plugins",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sihan-shen/dsh-context-cache.git"
+    "url": "git+https://github.com/sihan-shen/dsh-context-cache.git"
   },
   "homepage": "https://github.com/sihan-shen/dsh-context-cache#readme",
   "publishConfig": {
