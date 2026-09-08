@@ -17,8 +17,8 @@ import {
 import type { Dirent } from 'node:fs'
 import { setTimeout as delay } from 'node:timers/promises'
 import { basename, isAbsolute, join, relative, sep } from 'node:path'
-import { canonicalJson, parseContextBlockV1, sha256Utf8 } from '@ds-plugins/dsh-context'
-import type { ContextBlockV1 } from '@ds-plugins/dsh-context'
+import { canonicalJson, parseContextBlockV1, sha256Utf8 } from '@han_05/dsh-context'
+import type { ContextBlockV1 } from '@han_05/dsh-context'
 import type {
   CacheBoundaryV1,
   CacheLookupKeyV1,

@@ -2,7 +2,7 @@ import { chmod, mkdtemp, mkdir, readFile, readdir, realpath, rename, rm, stat, s
 import { tmpdir } from 'node:os'
 import { join } from 'node:path'
 import { afterEach, describe, expect, it, vi } from 'vitest'
-import { createContextBlockV1, sha256Utf8 } from '@ds-plugins/dsh-context'
+import { createContextBlockV1, sha256Utf8 } from '@han_05/dsh-context'
 import { ContextCacheStore } from '../src/index.ts'
 import type { CacheBoundaryV1, CacheLookupKeyV1 } from '../src/types.ts'
 

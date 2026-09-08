@@ -1,4 +1,4 @@
-import type { ContextBlockV1 } from '@ds-plugins/dsh-context'
+import type { ContextBlockV1 } from '@han_05/dsh-context'
 
 export type CacheBoundaryV1 = {
   workspaceFingerprint: string

@@ -1,5 +1,5 @@
 {
-  "name": "@ds-plugins/dsh-context-cache",
+  "name": "@han_05/dsh-context-cache",
   "version": "0.2.0",
   "description": "Bounded persistent context cache used by DSH context plugins",
   "repository": {
@@ -31,19 +31,20 @@
   ],
   "scripts": {
     "build": "tsc -b",
+    "prepare": "pnpm run build",
     "prepack": "pnpm run build",
     "test": "vitest run"
   },
   "peerDependencies": {
-    "@ds-plugins/dsh-context": "^0.2.0"
+    "@han_05/dsh-context": "^0.2.0"
   },
   "peerDependenciesMeta": {
-    "@ds-plugins/dsh-context": {
+    "@han_05/dsh-context": {
       "optional": true
     }
   },
   "devDependencies": {
-    "@ds-plugins/dsh-context": "^0.2.0",
+    "@han_05/dsh-context": "^0.2.0",
     "@types/node": "26.3.0",
     "typescript": "5.9.3",
     "vitest": "4.0.18"
